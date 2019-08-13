@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "scrape": "ts-node src/grab.ts",
+    "groups": "ts-node src/show_groups.ts"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.118",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "util": "^0.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.5.3"
+  }
+}
