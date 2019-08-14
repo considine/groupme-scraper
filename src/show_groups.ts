@@ -4,7 +4,7 @@ import * as _ from 'lodash';
 const base = 'https://api.groupme.com/v3/groups?page=1&per_page=100';
 if (process.argv.length < 3) {
   console.error(
-    'Argument 1 is your access_key and Argument 2 is your group_id'
+    'Argument 1 is your access_key'
   );
   process.exit(1);
 }
