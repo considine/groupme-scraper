@@ -45,7 +45,7 @@ const accessToken = process.argv[2];
     }
   }
   const json = JSON.stringify(messages, null, 4);
-  fs.writeFile('./out/messages.json', json, 'utf8', err => {
+  fs.writeFile('./out.json', json, 'utf8', err => {
     console.log(err);
   });
 })();
